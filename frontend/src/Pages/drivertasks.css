@@ -1,0 +1,26 @@
+.driverTasks{
+    width:196.1vh;   
+}
+.driverHeader{
+    position: absolute;
+    top:0;
+    width: 196.1vh;
+}
+.taskDetails{
+    width:70vh;
+    position:absolute;
+    left:65vh;
+    top:6em;
+    height: 80vh;
+    background-color: greenyellow;
+
+    margin-top: 2em;
+}
+.taskDetails h2{
+    font-size: 3em;
+    font-weight: 10000;
+    position: absolute;
+    left:3.4em;
+    /* font-family; */
+    color:white;
+}

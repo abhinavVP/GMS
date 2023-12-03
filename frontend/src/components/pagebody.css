@@ -1,0 +1,8 @@
+.paratext{
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+}
+.page img{
+    width:500px;
+    object-fit: contain;
+}

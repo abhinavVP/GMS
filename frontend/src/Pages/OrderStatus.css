@@ -1,0 +1,43 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.body{
+    margin-top:6em;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 70vh;
+    width: 190vh;
+}
+.pending{
+    background-color: #b8ff47;
+    color: white;
+    font-weight: bold;
+    border-radius: 9px;
+}
+.pending h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.orders{
+    color:black;
+    height:50vh;
+    width:170vh;
+    background-color: aliceblue;
+    position: absolute;
+    left:6em;
+    border-radius: 12px;
+}
+.orders table{
+    position: absolute;
+    left:10em;
+    top:4em;
+    border:2px black solid;
+}
+.orders th, .orders td {
+    border: 1px solid black; /* Border color and width */
+    padding: 8px; /* Add padding to cells */
+    text-align: left; /* Align text to the left */
+  }

@@ -1,0 +1,114 @@
+
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.howtopg{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width:196vh;
+    background-color: #001B18;
+    margin-left:-4px;
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+
+}
+.page{
+    height:80vh;
+}
+.imgs{
+    height: 20em;
+    margin-left:4em;
+    margin-top:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.intro{
+    margin-left:20em;
+    width:20em;
+}
+.intro h2{
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+    margin-left:6em;
+    font-size: 2em;
+    display: flex;
+    width:15em;
+}
+.imgs:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ #increase{
+    float: right;
+    margin-right: 4em;
+ }
+
+ .text{
+    color:black;
+    width:30%;
+    height:12em;
+    border:2px solid black;
+    font-size:1.8em;
+ }
+ #discuss{
+    margin-top:40px;
+    margin-top: 4em;
+    margin-right:4em;
+ }
+ #overview {
+    float:right;
+    margin-top: 4em;
+    margin-right:3em;
+ }
+#request{
+    float: left;
+    padding-top:1em;
+    margin-top: 4em;
+    margin-left:3em;
+}
+ .paratext{
+   float:right;
+    line-height: normal;
+    vertical-align: middle;
+    font-size:1.6em;
+    width:20em;
+ }
+ .pagebod{
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+ }
+.outro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size:2em;
+    height:30vh;
+    margin-top:-3em;
+}
+.outro h3{
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+    width:100%;
+    height:15vh;
+    font-size: 2em;
+}
+.outro h2{
+    font-family:'Noto Serif Old Uyghur', serif;
+    color:white;
+    width:100%;
+    order:2;
+    margin-top: 20px;
+    height:15vh;
+}
+.rounded-social-buttons{
+    border-top: 1px solid gainsboro;
+    background-color:gray;
+    margin-bottom: -2.5em;
+}

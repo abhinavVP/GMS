@@ -1,0 +1,59 @@
+#body{
+    width: 100%;
+    height: 70vh;
+   
+    margin-top:-10em;
+    
+}
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.textbox{
+    z-index: 10;
+    color:white;
+    width:50%;
+
+}
+#title{
+    font-family: 'Noto Serif Old Uyghur', serif;
+    color:white;
+    margin-top:-2em;
+    font-weight: 400;
+    width: 20em;
+    text-align: center;
+    font-size: 3em;
+    margin-top:5.6em;
+    margin-left:-2em;
+}
+#subtitle{
+    font-family: 'Noto Serif Old Uyghur', serif;
+    color:white;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    margin-top:1.5em;
+    margin-left:6em;
+    font-size: 1.5em;
+    width: 20em;
+}

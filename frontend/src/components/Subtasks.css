@@ -1,0 +1,10 @@
+.subtaskdiv{
+    height: 65vh;
+    width:60vh;
+    position: absolute;
+    top:14%;
+    left:7.5%;
+    color: black;
+    background-color: aliceblue;
+    overflow-y: auto;
+}

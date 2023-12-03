@@ -1,0 +1,27 @@
+.Aboutus{
+    height:80vh;
+    background-color: #001B18;
+    margin-top:-2px;
+    margin-left:-2px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom:-2.8em;
+    padding-bottom:-2px;
+}
+.heading{
+    font-size: 3em;
+    color:#ffffff;
+    font-family: 'Noto Serif Old Uyghur', serif;
+    text-align: center;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:30vh;
+    width:38vh;
+}

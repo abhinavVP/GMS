@@ -1,0 +1,138 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.addtotrash {
+  z-index: 100;
+}
+.heady {
+  color: black;
+}
+.Increment {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+}
+#increasey {
+  height: 6em;
+  width: 6em;
+}
+#trash {
+  height: 6em;
+  width: 6em;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: greenyellow;
+  
+}
+.cartfunctionality {
+  margin-bottom: -6em;
+}
+.red-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #023047;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  position: absolute;
+  right: 1em;
+  bottom: 5em;
+  z-index: 20;
+}
+.adding {
+  position: absolute;
+  right: 4em;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px gainsboro solid;
+  height: 20em;
+  width: 20em;
+  background-color: whitesmoke;
+}
+.heading h3 {
+  height: 2em;
+  display: none;
+  background-color: aqua;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  margin-top: 2em;
+  font-size: 0.4em;
+  border-bottom: 2px gainsboro solid;
+}
+
+.orderdetails {
+  margin-bottom: 8em;
+  display: flex;
+  justify-content: center;
+}
+.orderdetails #sub {
+  position: absolute;
+  right: 2em;
+}
+#button {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  height: 3em;
+  width: 16.6em;
+  border: 1px gainsboro solid;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.orderdetails p {
+  padding-top: 2em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+#sub {
+  position: absolute;
+  left: 12em;
+  top: 4em;
+}
+#close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+}
+
+#adding:after {
+  animation: fadeInAnimation ease 2s;
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+#adding:before {
+  position: absolute;
+  content: "";
+
+  top: 0;
+  left: 0;
+
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: -1;
+}
+.heading h3 {
+  margin-top: 0em;
+  display: block;
+  font-size: 0.6em;
+}

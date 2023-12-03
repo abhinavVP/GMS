@@ -1,0 +1,46 @@
+.fa{
+    position: sticky;
+}
+.bar{
+    position: sticky;
+}
+#nav-bar{
+    display: flex;
+    width:min-content;
+}
+
+/* ul{
+    margin-left:50em;
+    margin-top: 2em;
+    display:flex;
+    justify-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    
+} */
+.nav-link{
+    font-size: 1.2em;
+    color: black;
+    margin-left:10px;
+    margin-right:10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-left:20px;
+}
+.icon{
+    cursor: pointer;
+   transition: all .3s ease-in-out;
+   height: 2em;
+   padding-right:0em;
+}
+.title{
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
